@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col-custom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:
+    translate(-50%,-50%) ;
+}
+.quoteButton{
+background-color: blue;
+color: white;
+transition: all 1sec;
+
+}
+
+.quoteButton:hover{
+    color: white;
+
+background-color: green;
+}
